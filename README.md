@@ -104,3 +104,17 @@ void loop()
 ```
 
 <img width="1706" height="727" alt="Swanky Albar-Gogo" src="https://github.com/user-attachments/assets/9435c874-005b-4bf1-a82f-ccc2f6afe995" />
+
+
+# 🦿 Humanoid Robot Walking Algorithm
+
+This algorithm explains how the walking motion is achieved using servo motors (or actuators) in a bipedal humanoid robot.
+
+## 🧠 Algorithm Steps:
+1. Start in neutral standing position
+2. Shift body weight to the **right leg** and make Right leg becomes the support leg.
+3. Lift the **left leg** by rising it up.
+4. Swing the **left leg forward** by extending the knee forward like taking a step.
+5. Place the **left foot** on the ground.
+6. Shift body weight to the **left leg**.
+7. Lift and swing the **right leg** forward and repeat the process.
